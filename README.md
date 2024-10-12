@@ -1,3 +1,3 @@
-# Movie-site-clone
-This is a cloned movie site Home page which is made by only two technologies that are HTML and CSS. <br>
-Author - Himesh Chahar (Beginner web development enthusiast)
+# The-Great-Book-Site
+This is a bookstore's website's home page which made with only two technologies that are HTML and CSS. <br>
+Author : Himesh Chahar (A beginner Web developer)
