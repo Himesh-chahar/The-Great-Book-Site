@@ -1,0 +1,231 @@
+  * {
+    font-family: "Merriweather", serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    height: 10rem;
+    width: 100%;
+}
+
+.first-nav {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 7rem;
+}
+
+.logo img {
+    height: 6rem;
+    width: 7rem;
+    position: fixed;
+    top: 0;
+    margin-left: 5rem;
+    margin-top: 0;
+}
+
+.sidetext p span {
+    color: #000;
+}
+
+.sidetext p {
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+
+.sidetext {
+    background-color: rgb(97, 209, 253);
+    margin-left: 12rem;
+    margin-top: 3rem;
+    /* width: 4rem; */
+    color: white;
+    width: 12.8rem;
+}
+
+.search {
+    margin-top: 40px;
+    margin-left: 60px;
+    position: relative;
+    width: 500px;
+}
+
+.search input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 15px;
+    border: 1px solid #00000063;
+}
+
+.search i {
+    position: absolute;
+    top: 28%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.icons {
+    display: flex;
+    margin-top: 48px;
+    margin-left: 100px;
+    transition: font-size 0.5s ease-in-out;
+}
+
+.icons i {
+    font-size: 1.6rem;
+}
+
+.icons .fa-user {
+    transition: font-size 0.5s ease-in-out;
+}
+
+.icons .fa-cart-shopping {
+    margin-right: 30px;
+    transition: font-size 0.5s ease-in-out;
+}
+
+.second-nav {
+    position: fixed;
+    top: 113px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    height: 3rem;
+}
+
+.second-nav ul {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-nav ul li {
+    margin-right: 50px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    transition: font-size 0.5s ease-in-out;
+}
+
+.icons .fa-cart-shopping:hover {
+    color: rgb(249, 146, 2);
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.icons .fa-user:hover {
+    color: rgb(249, 146, 2);
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.second-nav ul li:hover {
+    color: rgb(255, 136, 0);
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+main {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.839);
+    height: 27rem;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+
+.display-area {
+    width: 100%;
+    height: 27rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.stack img {
+    padding: 4rem;
+    /* padding-right: 4rem; */
+    width: 20rem;
+    height: 20rem;
+}
+
+.items .heading h1 {
+    margin-bottom: 2.5rem;
+    text-align: center;
+    text-decoration: underline black double;
+    color: #e67e22;
+}
+
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card {
+    /* display: flex; */
+    background-color: #fff;
+    margin-top: 3px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    width: 200px;
+    height: 360px;
+    border-radius: 3px;
+    border: none;
+    /* box-shadow: 2px 2px 10px rgba(112, 112, 112, 0.7); */
+    border-radius: 5px;
+    transition: box-shadow 0.8s ease-in-out;
+}
+
+.card-image img {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 280px;
+    width: 100%;
+}
+
+.card-info h3 {
+    /* text-align: center; */
+    margin-left: 10px;
+    color: black;
+    font-size: 0.95rem;
+    line-height: 1.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.author {
+    margin-left: 10px;
+    font-size: small;
+    color: rgba(4, 1, 1, 0.647);
+    margin-bottom: 0.3rem;
+}
+
+.card-price button {
+    margin-left: 10px;
+    background-color: transparent;
+    width: 4rem;
+    height: 1.5rem;
+    border: 3px solid rgb(21, 227, 254);
+    text-align: center;
+    color: rgb(8, 113, 199);
+}
+
+.card:hover {
+    cursor: pointer;
+    /* border: 1px solid rgba(0, 0, 0, 0.462); */
+    box-shadow: 2px 2px 10px black;
+}
