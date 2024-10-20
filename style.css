@@ -158,6 +158,7 @@
       flex-wrap: wrap;
       flex-direction: row;
       background-color: rgba(0, 0, 0, 0.839);
+      animation: slider 10s ease 0s infinite normal;
   }
 
   .stack img {
@@ -165,6 +166,22 @@
       /* padding-right: 4rem; */
       width: 20rem;
       height: 20rem;
+      display: none;
+  }
+
+  @keyframes slider {
+    0% {
+        background-image: url("images/book-stack3.jpg");
+        background-size: cover;
+    }
+    50% {
+        background-image: url("images/book-hindi.webp");
+        background-size: cover;
+    }
+    100% {
+        background-image: url("images/book-hell.png");
+        background-size: cover;
+    }
   }
 
   .items .heading h1 {
@@ -301,4 +318,15 @@
       margin-bottom: 8px;
       font-size: 0.9rem;
       color: #ffffff9b;
+  }
+
+  .social-icons i:hover {
+      color: rgba(255, 255, 255, 1);
+      cursor: pointer;
+  }
+
+  .Quick-Links ul li:hover {
+      color: rgba(255, 255, 255, 1);
+      cursor: pointer;
+      text-decoration: underline;
   }
